@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Install bootstrap command
+
+yarn add bootstrap@next jquery @popperjs/core 
