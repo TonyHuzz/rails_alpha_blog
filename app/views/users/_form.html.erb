@@ -25,7 +25,7 @@
         </div>
 
         <div class="input-group justify-content-center mb-3">
-          <%= f.submit "Sign up", class: "btn btn-outline-light btn-lg" %>
+          <%= f.submit(@user.new_record? ? "Sign up" : "Update profile", class: "btn btn-outline-light btn-lg") %>   <!-- @user.new_record? 判斷是否為新增使用者，不是則顯示Update profile -->
         </div>
       <% end %>
     </div>
